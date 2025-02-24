@@ -15,7 +15,7 @@ import java.util.Set;
 public class Reservation {
     @Id
     private String idReservation;
-    private Date anneeUniversitaire;
+    private String anneeUniversitaire;
     private boolean estValide;
 
     @ManyToMany(cascade = CascadeType.ALL)
